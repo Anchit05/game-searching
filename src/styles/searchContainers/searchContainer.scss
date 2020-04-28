@@ -1,0 +1,31 @@
+.main-search-container{
+  .search-games-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .search-field{
+    flex: 0 1 375px;
+  }
+  .search-button{
+    margin-left: 20px;
+    padding: 12px 25px;
+    padding-left: 28px;
+    border-radius: 3px;
+    background-color: #ff4d55;
+    border: 1px solid #ff4d55;
+    .search-text{
+      color: #fff;
+    }
+  }
+  .search-input-box{
+    height: 51px;
+    padding: 15px 20px;
+    text-align: left;
+    outline: none;
+    border: 1px solid #fff;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+}

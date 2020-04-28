@@ -1,0 +1,22 @@
+.main-game-card-container{
+  .card-title-text{
+    font-size: 24px;
+  }
+  .other-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+    .common-container{
+      flex: 0 0 50%;
+      margin-bottom: 10px;
+    }
+    .common-text-hd{
+      font-size: 18px;
+      color: #7f7f7f;
+    }
+    .common-text{
+      font-size: 16px;
+    }
+  }
+}
